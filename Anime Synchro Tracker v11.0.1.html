@@ -219,6 +219,7 @@
             font-weight: 800;
             background: linear-gradient(135deg, #fff, #a1a1aa);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-bottom: 4px;
         }
@@ -226,12 +227,14 @@
         .stat-value.glow-primary {
             background: linear-gradient(135deg, #e8b0ff, var(--primary));
             -webkit-background-clip: text;
+            background-clip: text;
             filter: drop-shadow(0 0 8px var(--primary-glow));
         }
 
         .stat-value.glow-secondary {
             background: linear-gradient(135deg, #b0f0ff, var(--secondary));
             -webkit-background-clip: text;
+            background-clip: text;
             filter: drop-shadow(0 0 8px var(--secondary-glow));
         }
 
@@ -245,7 +248,7 @@
 
         .filters-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
             gap: 20px;
             padding-top: 24px;
             border-top: 1px solid var(--glass-border);
@@ -468,6 +471,7 @@
             line-height: 1.3;
             display: -webkit-box;
             -webkit-line-clamp: 2;
+            line-clamp: 2;
             -webkit-box-orient: vertical;
             overflow: hidden;
             text-shadow: 0 2px 4px rgba(0,0,0,0.8);
@@ -858,6 +862,20 @@
                         <input type="text" id="searchInput" placeholder="Welchen Anime suchst du?">
                     </div>
                     <div class="filter-group">
+                        <label>Jahr</label>
+                        <select id="yearSelect">
+                            <option value="all">Alle Jahre</option>
+                            <!-- Dynamically populated -->
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Format</label>
+                        <select id="formatSelect">
+                            <option value="all">Alle Formate</option>
+                            <!-- Dynamically populated -->
+                        </select>
+                    </div>
+                    <div class="filter-group">
                         <label>Sortierung</label>
                         <select id="sortSelect">
                             <option value="year_desc">📅 Neueste Releases zuerst</option>
@@ -1041,6 +1059,7 @@
             const isScraperFormat = raw.info !== undefined;
             return {
                 ...raw,
+                format: raw.type || raw.format || 'Unbekannt',
                 id: raw.id ? `${type}_${raw.id}` : `${type}_${index}`,
                 type: type,
                 episodes: raw.episodes || (isScraperFormat
@@ -1078,6 +1097,25 @@
             state.dataSource = source;
             state.lastUpdate = new Date().toLocaleString('de-DE');
             state.hasAbgeschlossen = abgeschlossenData.length > 0;
+
+            // Dynamisch Jahr und Format Dropdowns befüllen
+            const yearSelect = document.getElementById('yearSelect');
+            const formatSelect = document.getElementById('formatSelect');
+            if (yearSelect && formatSelect && allAnimes.length > 0) {
+                const years = [...new Set(allAnimes.map(a => a.year).filter(y => y > 0))].sort((a,b) => b - a);
+                const formats = [...new Set(allAnimes.map(a => a.format).filter(Boolean))].sort();
+
+                const currYear = yearSelect.value;
+                const currFormat = formatSelect.value;
+
+                yearSelect.innerHTML = '<option value="all">Alle Jahre</option>' + 
+                    years.map(y => `<option value="${y}">${y}</option>`).join('');
+                formatSelect.innerHTML = '<option value="all">Alle Formate</option>' + 
+                    formats.map(f => `<option value="${f}">${f}</option>`).join('');
+
+                if (years.includes(parseInt(currYear))) yearSelect.value = currYear;
+                if (formats.includes(currFormat)) formatSelect.value = currFormat;
+            }
 
             // Zeige/Verstecke Abgeschlossen-Tab
             const tabAbs = document.getElementById('tabAbgeschlossen');
@@ -1213,6 +1251,8 @@
             const searchInput = document.getElementById('searchInput');
             const searchTerm  = (searchInput?.value || '').toLowerCase();
             const sortVal     = document.getElementById('sortSelect').value;
+            const selectedYear = document.getElementById('yearSelect')?.value || 'all';
+            const selectedFormat = document.getElementById('formatSelect')?.value || 'all';
 
             let result = state.animes.filter(anime => {
                 const title        = (anime.title || '').toLowerCase();
@@ -1224,7 +1264,10 @@
                 else if (state.currentTab === 'abgeschlossene-dubs') matchesTab = anime.type === 'abgeschlossen';
                 else if (state.currentTab === 'watchlist')      matchesTab = state.watchlist.some(w => w.id === anime.id);
 
-                return matchesSearch && matchesTab;
+                const matchesYear = selectedYear === 'all' || anime.year === parseInt(selectedYear);
+                const matchesFormat = selectedFormat === 'all' || anime.format === selectedFormat;
+
+                return matchesSearch && matchesTab && matchesYear && matchesFormat;
             });
 
             // Sorting
@@ -1295,7 +1338,10 @@
                         <div class="anime-content">
                             <div class="anime-title">${anime.title}</div>
                             <div class="anime-meta">
-                                <span>📅 ${anime.year}</span> • <span>${anime.type === 'aktuell' ? anime.info || 'Laufend' : anime.info || 'Geplant'}</span>
+                                <span>📅 ${anime.year}</span> • <span>📺 ${anime.format}</span>
+                            </div>
+                            <div class="anime-meta" style="margin-top:-6px;">
+                                <span>${anime.type === 'aktuell' ? anime.info || 'Laufend' : anime.info || 'Geplant'}</span>
                             </div>
                             
                             <div class="time-highlight ${isAbgeschlossen ? 'recent' : highLightClass}">
@@ -1464,6 +1510,8 @@
 
             document.getElementById('searchInput').addEventListener('input', applyFilters);
             document.getElementById('sortSelect').addEventListener('change', applyFilters);
+            document.getElementById('yearSelect').addEventListener('change', applyFilters);
+            document.getElementById('formatSelect').addEventListener('change', applyFilters);
             document.getElementById('pageSizeSelect').addEventListener('change', (e) => {
                 state.pageSize = parseInt(e.target.value) || 24;
                 localStorage.setItem('premiumPageSize', state.pageSize);

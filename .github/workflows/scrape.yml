@@ -12,6 +12,8 @@ jobs:
     name: Scrape anisearch.de & Deploy
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      FTP_HOST: ${{ secrets.FTP_HOST }}
 
     permissions:
       contents: write   # Für git commit + push
@@ -79,7 +81,7 @@ jobs:
       # 7. (Optional) FTP-Upload zu InfinityFree
       # Falls du FTP-Credentials als Secrets hinterlegst, wird die JSON auch direkt hochgeladen
       - name: 🌐 FTP Upload to InfinityFree (optional)
-        if: ${{ secrets.FTP_HOST != '' }}
+        if: env.FTP_HOST != ''
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_HOST }}

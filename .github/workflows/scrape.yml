@@ -10,7 +10,7 @@ on:
 jobs:
   scrape:
     name: Scrape anisearch.de & Deploy
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     timeout-minutes: 30
     env:
       FTP_HOST: ${{ secrets.FTP_HOST }}

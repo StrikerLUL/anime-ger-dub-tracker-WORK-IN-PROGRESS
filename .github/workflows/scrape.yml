@@ -1,0 +1,95 @@
+name: 🎬 Anime Dub Scraper
+
+on:
+  # Täglich um 06:00 UTC (= 07:00 Uhr Europa/Berlin Winterzeit, 08:00 Sommerzeit)
+  schedule:
+    - cron: '0 6 * * *'
+  # Manueller Start über GitHub Actions Tab
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    name: Scrape anisearch.de & Deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    permissions:
+      contents: write   # Für git commit + push
+
+    steps:
+      # 1. Repository auschecken
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2. Python einrichten
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # 3. Abhängigkeiten installieren
+      - name: 📦 Install Dependencies
+        run: |
+          pip install -r requirements_actions.txt
+          python -m playwright install --with-deps chromium
+
+      # 4. Scraper ausführen → erzeugt anime_data.json
+      - name: 🔍 Run Anisearch Scraper
+        run: python scraper_standalone.py
+        env:
+          PYTHONIOENCODING: utf-8
+
+      # 5. Prüfen ob anime_data.json erstellt wurde
+      - name: ✅ Verify Output
+        run: |
+          if [ -f anime_data.json ]; then
+            echo "✅ anime_data.json erstellt!"
+            python -c "
+          import json
+          with open('anime_data.json') as f:
+              d = json.load(f)
+          k = len(d.get('kommende', []))
+          a = len(d.get('aktuelle', []))
+          ab = len(d.get('abgeschlossen', []))
+          print(f'📊 {k} kommende + {a} aktuelle + {ab} abgeschlossene Dubs')
+          "
+          else
+            echo "❌ anime_data.json fehlt – Scraper hat nicht funktioniert"
+            exit 1
+          fi
+
+      # 6. Automatisch committen und pushen falls Daten geändert haben
+      - name: 💾 Commit & Push anime_data.json
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add anime_data.json
+          # Nur committen wenn Änderungen vorhanden
+          if git diff --staged --quiet; then
+            echo "Keine Änderungen – nichts zu committen"
+          else
+            git commit -m "🤖 Auto-Update: Anime Dub Daten $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+            echo "✅ anime_data.json erfolgreich gepusht!"
+          fi
+
+      # 7. (Optional) FTP-Upload zu InfinityFree
+      # Falls du FTP-Credentials als Secrets hinterlegst, wird die JSON auch direkt hochgeladen
+      - name: 🌐 FTP Upload to InfinityFree (optional)
+        if: ${{ secrets.FTP_HOST != '' }}
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          # Nur anime_data.json hochladen (nicht den ganzen Repo-Inhalt)
+          local-dir: ./
+          server-dir: ${{ secrets.FTP_PATH || '/htdocs/' }}
+          include: |
+            anime_data.json
+          exclude: |
+            **
+            !anime_data.json

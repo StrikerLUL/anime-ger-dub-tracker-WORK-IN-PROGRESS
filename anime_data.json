@@ -1,1 +1,966 @@
-
+{
+  "kommende": [
+    {
+      "id": 4583,
+      "title": "Hakaba Kitaro: Der Junge vom Friedhof",
+      "url": "https://www.anisearch.de/anime/4583,hakaba-kitaro-der-junge-vom-friedhof",
+      "image": "https://cdn.anisearch.de/images/anime/cover/4/4583_400.webp",
+      "info": "TV-Serie, 11 (2008)",
+      "year": 2008,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 5278,
+      "title": "Strike Witches 2",
+      "url": "https://www.anisearch.de/anime/5278,strike-witches-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/5/5278_400.webp",
+      "info": "TV-Serie, 12 (2010)",
+      "year": 2010,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 7582,
+      "title": "Good Luck Girl!",
+      "url": "https://www.anisearch.de/anime/7582,good-luck-girl",
+      "image": "https://cdn.anisearch.de/images/anime/cover/7/7582_400.webp",
+      "info": "TV-Serie, 13 (2012)",
+      "year": 2012,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 7944,
+      "title": "Kamisama Kiss",
+      "url": "https://www.anisearch.de/anime/7944,kamisama-kiss",
+      "image": "https://cdn.anisearch.de/images/anime/cover/7/7944_400.webp",
+      "info": "TV-Serie, 13 (2012)",
+      "year": 2012,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 9748,
+      "title": "Kamisama Kiss: Staffel 2",
+      "url": "https://www.anisearch.de/anime/9748,kamisama-kiss-staffel-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/9/9748_400.webp",
+      "info": "TV-Serie, 12 (2015)",
+      "year": 2015,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 10279,
+      "title": "Doukyusei -Classmates-",
+      "url": "https://www.anisearch.de/anime/10279,doukyusei-classmates",
+      "image": "https://cdn.anisearch.de/images/anime/cover/10/10279_400.webp",
+      "info": "Film, 1 (2016)",
+      "year": 2016,
+      "type": "Film"
+    },
+    {
+      "id": 12939,
+      "title": "Banana Fish",
+      "url": "https://www.anisearch.de/anime/12939,banana-fish",
+      "image": "https://cdn.anisearch.de/images/anime/cover/12/12939_400.webp",
+      "info": "TV-Serie, 24 (2018)",
+      "year": 2018,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 14064,
+      "title": "Miru Tights",
+      "url": "https://www.anisearch.de/anime/14064,miru-tights",
+      "image": "https://cdn.anisearch.de/images/anime/cover/14/14064_400.webp",
+      "info": "Web, 12 (2019)",
+      "year": 2019,
+      "type": "Web"
+    },
+    {
+      "id": 14238,
+      "title": "Tsugumomo 2",
+      "url": "https://www.anisearch.de/anime/14238,tsugumomo-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/14/14238_400.webp",
+      "info": "TV-Serie, 12 (2020)",
+      "year": 2020,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 15931,
+      "title": "Virgin Road: Die Henkerin und ihre Art zu leben",
+      "url": "https://www.anisearch.de/anime/15931,virgin-road-die-henkerin-und-ihre-art-zu-leben",
+      "image": "https://cdn.anisearch.de/images/anime/cover/15/15931_400.webp",
+      "info": "TV-Serie, 12 (2022)",
+      "year": 2022,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 15989,
+      "title": "Bocchi the Rock!",
+      "url": "https://www.anisearch.de/anime/15989,bocchi-the-rock",
+      "image": "https://cdn.anisearch.de/images/anime/cover/15/15989_400.webp",
+      "info": "TV-Serie, 12 (2022)",
+      "year": 2022,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 17739,
+      "title": "My Love Story with Yamada-kun at Lv999",
+      "url": "https://www.anisearch.de/anime/17739,my-love-story-with-yamada-kun-at-lv999",
+      "image": "https://cdn.anisearch.de/images/anime/cover/17/17739_400.webp",
+      "info": "TV-Serie, 13 (2023)",
+      "year": 2023,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 18360,
+      "title": "Girls Band Cry",
+      "url": "https://www.anisearch.de/anime/18360,girls-band-cry",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18360_400.webp",
+      "info": "TV-Serie, 13 (2024)",
+      "year": 2024,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19490,
+      "title": "Please Put Them On, Takamine-san",
+      "url": "https://www.anisearch.de/anime/19490,please-put-them-on-takamine-san",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19490_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19768,
+      "title": "Anne Shirley",
+      "url": "https://www.anisearch.de/anime/19768,anne-shirley",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19768_400.webp",
+      "info": "TV-Serie, 24 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19712,
+      "title": "Yaiba: Samurai Legend",
+      "url": "https://www.anisearch.de/anime/19712,yaiba-samurai-legend",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19712_400.webp",
+      "info": "TV-Serie, 24 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19259,
+      "title": "Kakushite! Makina-san!!",
+      "url": "https://www.anisearch.de/anime/19259,kakushite-makina-san",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19259_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19627,
+      "title": "Yandere Dark Elf: She Chased Me All the Way from Another World!",
+      "url": "https://www.anisearch.de/anime/19627,yandere-dark-elf-she-chased-me-all-the-way-from-another-world",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19627_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 20193,
+      "title": "Chuhai Lips: Canned Flavor of Married Women",
+      "url": "https://www.anisearch.de/anime/20193,chuhai-lips-canned-flavor-of-married-women",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20193_400.webp",
+      "info": "Web, 8 (2025)",
+      "year": 2025,
+      "type": "Web"
+    },
+    {
+      "id": 19121,
+      "title": "Call of the Night: Season 2",
+      "url": "https://www.anisearch.de/anime/19121,call-of-the-night-season-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19121_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19045,
+      "title": "Nukitashi: Welcome to Love Island!",
+      "url": "https://www.anisearch.de/anime/19045,nukitashi-welcome-to-love-island",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19045_400.webp",
+      "info": "TV-Serie, 11 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 20718,
+      "title": "Chuhai Lips: Canned Flavor of Married Women - Nach der Nacht, die ich mit meiner Tante verbrachte",
+      "url": "https://www.anisearch.de/anime/20718,chuhai-lips-canned-flavor-of-married-women-nach-der-nacht-die-ich-mit-meiner-tante-verbrachte",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20718_400.webp",
+      "info": "Web, 1 (2025)",
+      "year": 2025,
+      "type": "Web"
+    },
+    {
+      "id": 20694,
+      "title": "Labyrinth",
+      "url": "https://www.anisearch.de/anime/20694,labyrinth",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20694_400.webp",
+      "info": "Film, 1 (2026)",
+      "year": 2026,
+      "type": "Film"
+    },
+    {
+      "id": 19634,
+      "title": "Meine Wiedergeburt als Schleim in einer anderen Welt: Der Film - Die Tränen des azurblauen Meeres",
+      "url": "https://www.anisearch.de/anime/19634,meine-wiedergeburt-als-schleim-in-einer-anderen-welt-der-film-die-tranen-des-azurblauen-meeres",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19634_400.webp",
+      "info": "Film, 1 (2026)",
+      "year": 2026,
+      "type": "Film"
+    },
+    {
+      "id": 20872,
+      "title": "Assassination Classroom: Our Time - The Movie",
+      "url": "https://www.anisearch.de/anime/20872,assassination-classroom-our-time-the-movie",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20872_400.webp",
+      "info": "Film, 1 (2026)",
+      "year": 2026,
+      "type": "Film"
+    },
+    {
+      "id": 20149,
+      "title": "The Ramparts of Ice",
+      "url": "https://www.anisearch.de/anime/20149,the-ramparts-of-ice",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20149_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    }
+  ],
+  "aktuelle": [
+    {
+      "id": 18686,
+      "title": "Fist of the North Star: Hokuto No Ken",
+      "url": "https://www.anisearch.de/anime/18686,fist-of-the-north-star-hokuto-no-ken",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18686_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19486,
+      "title": "Rooster Fighter",
+      "url": "https://www.anisearch.de/anime/19486,rooster-fighter",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19486_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 20466,
+      "title": "Steel Ball Run: Jojo’s Bizarre Adventure",
+      "url": "https://www.anisearch.de/anime/20466,steel-ball-run-jojos-bizarre-adventure",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20466_400.webp",
+      "info": "Web, ? (2026)",
+      "year": 2026,
+      "type": "Web"
+    },
+    {
+      "id": 20494,
+      "title": "Beastars Letzte Staffel (Teil 2)",
+      "url": "https://www.anisearch.de/anime/20494,beastars-letzte-staffel-teil-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20494_400.webp",
+      "info": "Web, 12 (2026)",
+      "year": 2026,
+      "type": "Web"
+    },
+    {
+      "id": 19175,
+      "title": "Baki-Dou",
+      "url": "https://www.anisearch.de/anime/19175,baki-dou",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19175_400.webp",
+      "info": "Web, 13 (2026)",
+      "year": 2026,
+      "type": "Web"
+    },
+    {
+      "id": 19636,
+      "title": "The Dangers in My Heart: The Movie",
+      "url": "https://www.anisearch.de/anime/19636,the-dangers-in-my-heart-the-movie",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19636_400.webp",
+      "info": "Film, 1 (2026)",
+      "year": 2026,
+      "type": "Film"
+    },
+    {
+      "id": 21004,
+      "title": "Cosmic Princess Kaguya!",
+      "url": "https://www.anisearch.de/anime/21004,cosmic-princess-kaguya",
+      "image": "https://cdn.anisearch.de/images/anime/cover/21/21004_400.webp",
+      "info": "Web, 1 (2026)",
+      "year": 2026,
+      "type": "Web"
+    },
+    {
+      "id": 19635,
+      "title": "Frieren: Nach dem Ende der Reise - Staffel 2",
+      "url": "https://www.anisearch.de/anime/19635,frieren-nach-dem-ende-der-reise-staffel-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19635_400.webp",
+      "info": "TV-Serie, 10 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 21031,
+      "title": "Love Through a Prism",
+      "url": "https://www.anisearch.de/anime/21031,love-through-a-prism",
+      "image": "https://cdn.anisearch.de/images/anime/cover/21/21031_400.webp",
+      "info": "Web, 20 (2026)",
+      "year": 2026,
+      "type": "Web"
+    },
+    {
+      "id": 19667,
+      "title": "Oshi no Ko: Mein Star - Season 3",
+      "url": "https://www.anisearch.de/anime/19667,oshi-no-ko-mein-star-season-3",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19667_400.webp",
+      "info": "TV-Serie, 11 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 18505,
+      "title": "Hell’s Paradise: Staffel 2",
+      "url": "https://www.anisearch.de/anime/18505,hells-paradise-staffel-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18505_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19963,
+      "title": "You and I Are Polar Opposites",
+      "url": "https://www.anisearch.de/anime/19963,you-and-i-are-polar-opposites",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19963_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19600,
+      "title": "Dark Moon: The Blood Altar",
+      "url": "https://www.anisearch.de/anime/19600,dark-moon-the-blood-altar",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19600_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19465,
+      "title": "Fire Force: Staffel 3 (Cour 2)",
+      "url": "https://www.anisearch.de/anime/19465,fire-force-staffel-3-cour-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19465_400.webp",
+      "info": "TV-Serie, 13 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 18323,
+      "title": "Trigun Stargaze",
+      "url": "https://www.anisearch.de/anime/18323,trigun-stargaze",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18323_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 18987,
+      "title": "Jujutsu Kaisen: Staffel 3",
+      "url": "https://www.anisearch.de/anime/18987,jujutsu-kaisen-staffel-3",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18987_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19295,
+      "title": "Darwin’s Incident",
+      "url": "https://www.anisearch.de/anime/19295,darwins-incident",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19295_400.webp",
+      "info": "TV-Serie, 13 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19568,
+      "title": "Shiboyugi: Das Phantom-Mädchen im Spiel des Todes",
+      "url": "https://www.anisearch.de/anime/19568,shiboyugi-das-phantom-madchen-im-spiel-des-todes",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19568_400.webp",
+      "info": "TV-Serie, 11 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 18483,
+      "title": "Golden Kamuy: Final Season",
+      "url": "https://www.anisearch.de/anime/18483,golden-kamuy-final-season",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18483_400.webp",
+      "info": "TV-Serie, 13 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 20687,
+      "title": "My Hero Academia: Vigilantes Staffel 2",
+      "url": "https://www.anisearch.de/anime/20687,my-hero-academia-vigilantes-staffel-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20687_400.webp",
+      "info": "TV-Serie, 13 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19267,
+      "title": "Hana-Kimi",
+      "url": "https://www.anisearch.de/anime/19267,hana-kimi",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19267_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 18551,
+      "title": "Sentenced to Be a Hero",
+      "url": "https://www.anisearch.de/anime/18551,sentenced-to-be-a-hero",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18551_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 20852,
+      "title": "Record of Ragnarok: Staffel 3",
+      "url": "https://www.anisearch.de/anime/20852,record-of-ragnarok-staffel-3",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20852_400.webp",
+      "info": "Web, 15 (2025)",
+      "year": 2025,
+      "type": "Web"
+    },
+    {
+      "id": 20000,
+      "title": "Scarlet",
+      "url": "https://www.anisearch.de/anime/20000,scarlet",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20000_400.webp",
+      "info": "Film, 1 (2025)",
+      "year": 2025,
+      "type": "Film"
+    },
+    {
+      "id": 20983,
+      "title": "Jujutsu Kaisen: Execution",
+      "url": "https://www.anisearch.de/anime/20983,jujutsu-kaisen-execution",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20983_400.webp",
+      "info": "Film, 1 (2025)",
+      "year": 2025,
+      "type": "Film"
+    },
+    {
+      "id": 16886,
+      "title": "Disney Twisted-Wonderland: Die Serie - Episode of Heartslabyul",
+      "url": "https://www.anisearch.de/anime/16886,disney-twisted-wonderland-die-serie-episode-of-heartslabyul",
+      "image": "https://cdn.anisearch.de/images/anime/cover/16/16886_400.webp",
+      "info": "Web, 8 (2025)",
+      "year": 2025,
+      "type": "Web"
+    },
+    {
+      "id": 19922,
+      "title": "Star Wars: Visions Volume 3",
+      "url": "https://www.anisearch.de/anime/19922,star-wars-visions-volume-3",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19922_400.webp",
+      "info": "Web, 9 (2025)",
+      "year": 2025,
+      "type": "Web"
+    },
+    {
+      "id": 20871,
+      "title": "Tatsuki Fujimoto 17–26",
+      "url": "https://www.anisearch.de/anime/20871,tatsuki-fujimoto-17-26",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20871_400.webp",
+      "info": "Film, 8 (2025)",
+      "year": 2025,
+      "type": "Film"
+    },
+    {
+      "id": 17618,
+      "title": "One-Punch Man: Staffel 3",
+      "url": "https://www.anisearch.de/anime/17618,one-punch-man-staffel-3",
+      "image": "https://cdn.anisearch.de/images/anime/cover/17/17618_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 18809,
+      "title": "Campfire Cooking in Another World with My Absurd Skill: Staffel 2",
+      "url": "https://www.anisearch.de/anime/18809,campfire-cooking-in-another-world-with-my-absurd-skill-staffel-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18809_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 20214,
+      "title": "Ninja vs. Gokudo",
+      "url": "https://www.anisearch.de/anime/20214,ninja-vs-gokudo",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20214_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 20183,
+      "title": "My Status as an Assassin Obviously Exceeds the Hero’s",
+      "url": "https://www.anisearch.de/anime/20183,my-status-as-an-assassin-obviously-exceeds-the-heros",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20183_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19989,
+      "title": "Ranma 1/2: Staffel 2",
+      "url": "https://www.anisearch.de/anime/19989,ranma-1-2-staffel-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19989_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19601,
+      "title": "May I Ask for One Final Thing?",
+      "url": "https://www.anisearch.de/anime/19601,may-i-ask-for-one-final-thing",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19601_400.webp",
+      "info": "TV-Serie, 13 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19698,
+      "title": "My Hero Academia: Final Season",
+      "url": "https://www.anisearch.de/anime/19698,my-hero-academia-final-season",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19698_400.webp",
+      "info": "TV-Serie, 11 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19469,
+      "title": "Sanda",
+      "url": "https://www.anisearch.de/anime/19469,sanda",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19469_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19327,
+      "title": "Spy × Family: Staffel 3",
+      "url": "https://www.anisearch.de/anime/19327,spy-x-family-staffel-3",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19327_400.webp",
+      "info": "TV-Serie, 13 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19133,
+      "title": "Tales of Wedding Rings: Staffel 2",
+      "url": "https://www.anisearch.de/anime/19133,tales-of-wedding-rings-staffel-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19133_400.webp",
+      "info": "TV-Serie, 13 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 18266,
+      "title": "To Your Eternity: Staffel 3",
+      "url": "https://www.anisearch.de/anime/18266,to-your-eternity-staffel-3",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18266_400.webp",
+      "info": "TV-Serie, 22 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19726,
+      "title": "Pass the Monster Meat, Milady!",
+      "url": "https://www.anisearch.de/anime/19726,pass-the-monster-meat-milady",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19726_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    }
+  ],
+  "abgeschlossen": [
+    {
+      "id": 18686,
+      "title": "Fist of the North Star: Hokuto No Ken",
+      "url": "https://www.anisearch.de/anime/18686,fist-of-the-north-star-hokuto-no-ken",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18686_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19486,
+      "title": "Rooster Fighter",
+      "url": "https://www.anisearch.de/anime/19486,rooster-fighter",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19486_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 20466,
+      "title": "Steel Ball Run: Jojo’s Bizarre Adventure",
+      "url": "https://www.anisearch.de/anime/20466,steel-ball-run-jojos-bizarre-adventure",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20466_400.webp",
+      "info": "Web, ? (2026)",
+      "year": 2026,
+      "type": "Web"
+    },
+    {
+      "id": 20494,
+      "title": "Beastars Letzte Staffel (Teil 2)",
+      "url": "https://www.anisearch.de/anime/20494,beastars-letzte-staffel-teil-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20494_400.webp",
+      "info": "Web, 12 (2026)",
+      "year": 2026,
+      "type": "Web"
+    },
+    {
+      "id": 19175,
+      "title": "Baki-Dou",
+      "url": "https://www.anisearch.de/anime/19175,baki-dou",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19175_400.webp",
+      "info": "Web, 13 (2026)",
+      "year": 2026,
+      "type": "Web"
+    },
+    {
+      "id": 19636,
+      "title": "The Dangers in My Heart: The Movie",
+      "url": "https://www.anisearch.de/anime/19636,the-dangers-in-my-heart-the-movie",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19636_400.webp",
+      "info": "Film, 1 (2026)",
+      "year": 2026,
+      "type": "Film"
+    },
+    {
+      "id": 21004,
+      "title": "Cosmic Princess Kaguya!",
+      "url": "https://www.anisearch.de/anime/21004,cosmic-princess-kaguya",
+      "image": "https://cdn.anisearch.de/images/anime/cover/21/21004_400.webp",
+      "info": "Web, 1 (2026)",
+      "year": 2026,
+      "type": "Web"
+    },
+    {
+      "id": 19635,
+      "title": "Frieren: Nach dem Ende der Reise - Staffel 2",
+      "url": "https://www.anisearch.de/anime/19635,frieren-nach-dem-ende-der-reise-staffel-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19635_400.webp",
+      "info": "TV-Serie, 10 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 21031,
+      "title": "Love Through a Prism",
+      "url": "https://www.anisearch.de/anime/21031,love-through-a-prism",
+      "image": "https://cdn.anisearch.de/images/anime/cover/21/21031_400.webp",
+      "info": "Web, 20 (2026)",
+      "year": 2026,
+      "type": "Web"
+    },
+    {
+      "id": 19667,
+      "title": "Oshi no Ko: Mein Star - Season 3",
+      "url": "https://www.anisearch.de/anime/19667,oshi-no-ko-mein-star-season-3",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19667_400.webp",
+      "info": "TV-Serie, 11 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 18505,
+      "title": "Hell’s Paradise: Staffel 2",
+      "url": "https://www.anisearch.de/anime/18505,hells-paradise-staffel-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18505_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19963,
+      "title": "You and I Are Polar Opposites",
+      "url": "https://www.anisearch.de/anime/19963,you-and-i-are-polar-opposites",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19963_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19600,
+      "title": "Dark Moon: The Blood Altar",
+      "url": "https://www.anisearch.de/anime/19600,dark-moon-the-blood-altar",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19600_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19465,
+      "title": "Fire Force: Staffel 3 (Cour 2)",
+      "url": "https://www.anisearch.de/anime/19465,fire-force-staffel-3-cour-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19465_400.webp",
+      "info": "TV-Serie, 13 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 18323,
+      "title": "Trigun Stargaze",
+      "url": "https://www.anisearch.de/anime/18323,trigun-stargaze",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18323_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 18987,
+      "title": "Jujutsu Kaisen: Staffel 3",
+      "url": "https://www.anisearch.de/anime/18987,jujutsu-kaisen-staffel-3",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18987_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19295,
+      "title": "Darwin’s Incident",
+      "url": "https://www.anisearch.de/anime/19295,darwins-incident",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19295_400.webp",
+      "info": "TV-Serie, 13 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19568,
+      "title": "Shiboyugi: Das Phantom-Mädchen im Spiel des Todes",
+      "url": "https://www.anisearch.de/anime/19568,shiboyugi-das-phantom-madchen-im-spiel-des-todes",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19568_400.webp",
+      "info": "TV-Serie, 11 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 18483,
+      "title": "Golden Kamuy: Final Season",
+      "url": "https://www.anisearch.de/anime/18483,golden-kamuy-final-season",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18483_400.webp",
+      "info": "TV-Serie, 13 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 20687,
+      "title": "My Hero Academia: Vigilantes Staffel 2",
+      "url": "https://www.anisearch.de/anime/20687,my-hero-academia-vigilantes-staffel-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20687_400.webp",
+      "info": "TV-Serie, 13 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19267,
+      "title": "Hana-Kimi",
+      "url": "https://www.anisearch.de/anime/19267,hana-kimi",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19267_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 18551,
+      "title": "Sentenced to Be a Hero",
+      "url": "https://www.anisearch.de/anime/18551,sentenced-to-be-a-hero",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18551_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 20852,
+      "title": "Record of Ragnarok: Staffel 3",
+      "url": "https://www.anisearch.de/anime/20852,record-of-ragnarok-staffel-3",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20852_400.webp",
+      "info": "Web, 15 (2025)",
+      "year": 2025,
+      "type": "Web"
+    },
+    {
+      "id": 20000,
+      "title": "Scarlet",
+      "url": "https://www.anisearch.de/anime/20000,scarlet",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20000_400.webp",
+      "info": "Film, 1 (2025)",
+      "year": 2025,
+      "type": "Film"
+    },
+    {
+      "id": 20983,
+      "title": "Jujutsu Kaisen: Execution",
+      "url": "https://www.anisearch.de/anime/20983,jujutsu-kaisen-execution",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20983_400.webp",
+      "info": "Film, 1 (2025)",
+      "year": 2025,
+      "type": "Film"
+    },
+    {
+      "id": 16886,
+      "title": "Disney Twisted-Wonderland: Die Serie - Episode of Heartslabyul",
+      "url": "https://www.anisearch.de/anime/16886,disney-twisted-wonderland-die-serie-episode-of-heartslabyul",
+      "image": "https://cdn.anisearch.de/images/anime/cover/16/16886_400.webp",
+      "info": "Web, 8 (2025)",
+      "year": 2025,
+      "type": "Web"
+    },
+    {
+      "id": 19922,
+      "title": "Star Wars: Visions Volume 3",
+      "url": "https://www.anisearch.de/anime/19922,star-wars-visions-volume-3",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19922_400.webp",
+      "info": "Web, 9 (2025)",
+      "year": 2025,
+      "type": "Web"
+    },
+    {
+      "id": 20871,
+      "title": "Tatsuki Fujimoto 17–26",
+      "url": "https://www.anisearch.de/anime/20871,tatsuki-fujimoto-17-26",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20871_400.webp",
+      "info": "Film, 8 (2025)",
+      "year": 2025,
+      "type": "Film"
+    },
+    {
+      "id": 17618,
+      "title": "One-Punch Man: Staffel 3",
+      "url": "https://www.anisearch.de/anime/17618,one-punch-man-staffel-3",
+      "image": "https://cdn.anisearch.de/images/anime/cover/17/17618_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 18809,
+      "title": "Campfire Cooking in Another World with My Absurd Skill: Staffel 2",
+      "url": "https://www.anisearch.de/anime/18809,campfire-cooking-in-another-world-with-my-absurd-skill-staffel-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18809_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 20214,
+      "title": "Ninja vs. Gokudo",
+      "url": "https://www.anisearch.de/anime/20214,ninja-vs-gokudo",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20214_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 20183,
+      "title": "My Status as an Assassin Obviously Exceeds the Hero’s",
+      "url": "https://www.anisearch.de/anime/20183,my-status-as-an-assassin-obviously-exceeds-the-heros",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20183_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19989,
+      "title": "Ranma 1/2: Staffel 2",
+      "url": "https://www.anisearch.de/anime/19989,ranma-1-2-staffel-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19989_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19601,
+      "title": "May I Ask for One Final Thing?",
+      "url": "https://www.anisearch.de/anime/19601,may-i-ask-for-one-final-thing",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19601_400.webp",
+      "info": "TV-Serie, 13 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19698,
+      "title": "My Hero Academia: Final Season",
+      "url": "https://www.anisearch.de/anime/19698,my-hero-academia-final-season",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19698_400.webp",
+      "info": "TV-Serie, 11 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19469,
+      "title": "Sanda",
+      "url": "https://www.anisearch.de/anime/19469,sanda",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19469_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19327,
+      "title": "Spy × Family: Staffel 3",
+      "url": "https://www.anisearch.de/anime/19327,spy-x-family-staffel-3",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19327_400.webp",
+      "info": "TV-Serie, 13 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19133,
+      "title": "Tales of Wedding Rings: Staffel 2",
+      "url": "https://www.anisearch.de/anime/19133,tales-of-wedding-rings-staffel-2",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19133_400.webp",
+      "info": "TV-Serie, 13 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 18266,
+      "title": "To Your Eternity: Staffel 3",
+      "url": "https://www.anisearch.de/anime/18266,to-your-eternity-staffel-3",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18266_400.webp",
+      "info": "TV-Serie, 22 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    },
+    {
+      "id": 19726,
+      "title": "Pass the Monster Meat, Milady!",
+      "url": "https://www.anisearch.de/anime/19726,pass-the-monster-meat-milady",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19726_400.webp",
+      "info": "TV-Serie, 12 (2025)",
+      "year": 2025,
+      "type": "TV-Serie"
+    }
+  ],
+  "timestamp": "2026-03-23T11:24:52.403192Z",
+  "source": "anisearch.de",
+  "version": "4.0",
+  "scraping": false
+}

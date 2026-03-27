@@ -298,6 +298,15 @@
       "type": "TV-Serie"
     },
     {
+      "id": 18911,
+      "title": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
+      "url": "https://www.anisearch.de/anime/18911,ascendance-of-a-bookworm-adopted-daughter-of-an-archduke",
+      "image": "https://cdn.anisearch.de/images/anime/cover/18/18911_400.webp",
+      "info": "TV-Serie, 24 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
       "id": 20717,
       "title": "Daemons of the Shadow Realm",
       "url": "https://www.anisearch.de/anime/20717,daemons-of-the-shadow-realm",
@@ -348,15 +357,6 @@
       "url": "https://www.anisearch.de/anime/20366,re-zero-starting-life-in-another-world-staffel-4",
       "image": "https://cdn.anisearch.de/images/anime/cover/20/20366_400.webp",
       "info": "TV-Serie, 19 (2026)",
-      "year": 2026,
-      "type": "TV-Serie"
-    },
-    {
-      "id": 20904,
-      "title": "Rent-a-Girlfriend: Staffel 5",
-      "url": "https://www.anisearch.de/anime/20904,rent-a-girlfriend-staffel-5",
-      "image": "https://cdn.anisearch.de/images/anime/cover/20/20904_400.webp",
-      "info": "TV-Serie, 12 (2026)",
       "year": 2026,
       "type": "TV-Serie"
     }
@@ -1085,7 +1085,7 @@
       "type": "TV-Serie"
     }
   ],
-  "timestamp": "2026-03-26T07:01:43.494787Z",
+  "timestamp": "2026-03-27T07:00:24.298081Z",
   "source": "anisearch.de",
   "version": "4.0",
   "scraping": false

@@ -334,6 +334,15 @@
       "type": "TV-Serie"
     },
     {
+      "id": 21198,
+      "title": "Nippon Sangoku: Die drei Nationen der roten Sonne",
+      "url": "https://www.anisearch.de/anime/21198,nippon-sangoku-die-drei-nationen-der-roten-sonne",
+      "image": "https://cdn.anisearch.de/images/anime/cover/21/21198_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie"
+    },
+    {
       "id": 17281,
       "title": "Witch Hat Atelier",
       "url": "https://www.anisearch.de/anime/17281,witch-hat-atelier",
@@ -348,15 +357,6 @@
       "url": "https://www.anisearch.de/anime/20938,marriagetoxin",
       "image": "https://cdn.anisearch.de/images/anime/cover/20/20938_400.webp",
       "info": "TV-Serie, 12 (2026)",
-      "year": 2026,
-      "type": "TV-Serie"
-    },
-    {
-      "id": 20366,
-      "title": "Re:Zero - Starting Life in Another World: Staffel 4",
-      "url": "https://www.anisearch.de/anime/20366,re-zero-starting-life-in-another-world-staffel-4",
-      "image": "https://cdn.anisearch.de/images/anime/cover/20/20366_400.webp",
-      "info": "TV-Serie, 19 (2026)",
       "year": 2026,
       "type": "TV-Serie"
     }
@@ -1085,7 +1085,7 @@
       "type": "TV-Serie"
     }
   ],
-  "timestamp": "2026-03-27T07:00:24.298081Z",
+  "timestamp": "2026-03-28T06:51:37.898214Z",
   "source": "anisearch.de",
   "version": "4.0",
   "scraping": false

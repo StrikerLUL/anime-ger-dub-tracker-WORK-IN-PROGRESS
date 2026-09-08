@@ -41,6 +41,16 @@
       "status": "kommende"
     },
     {
+      "id": 20953,
+      "title": "Gals Can’t Be Kind to Otaku!?",
+      "url": "https://www.anisearch.de/anime/20953,otaku-ni-yasashii-gal-wa-inai",
+      "image": "https://cdn.anisearch.de/images/anime/cover/20/20953_400.webp",
+      "info": "TV-Serie, 12 (2026)",
+      "year": 2026,
+      "type": "TV-Serie",
+      "status": "kommende"
+    },
+    {
       "id": 19877,
       "title": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
       "url": "https://www.anisearch.de/anime/19877,hell-mode-yarikomi-suki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru-hajimari-no-shoukan-samurai",
@@ -1010,6 +1020,16 @@
       "info": "Web, 1 (2026)",
       "year": 2026,
       "type": "Web",
+      "status": "aktuelle"
+    },
+    {
+      "id": 21585,
+      "title": "The Seven Knights of the Marronnier Kingdom",
+      "url": "https://www.anisearch.de/anime/21585,marronnier-oukoku-no-shichinin-no-kishi",
+      "image": "https://cdn.anisearch.de/images/anime/cover/21/21585_400.webp",
+      "info": "TV-Serie, 20 (2026)",
+      "year": 2026,
+      "type": "TV-Serie",
       "status": "aktuelle"
     },
     {
@@ -2213,16 +2233,6 @@
       "status": "aktuelle"
     },
     {
-      "id": 17661,
-      "title": "Arifureta: From Commonplace to World’s Strongest - Season 3",
-      "url": "https://www.anisearch.de/anime/17661,arifureta-shokugyou-de-sekai-saikyou-3rd-season",
-      "image": "https://cdn.anisearch.de/images/anime/cover/17/17661_400.webp",
-      "info": "TV-Serie, 16 (2024)",
-      "year": 2024,
-      "type": "TV-Serie",
-      "status": "aktuelle"
-    },
-    {
       "id": 19527,
       "title": "Attack on Titan: The Last Attack",
       "url": "https://www.anisearch.de/anime/19527,shingeki-no-kyojin-the-last-attack",
@@ -2344,15 +2354,15 @@
     }
   ],
   "abgeschlossen": [],
-  "timestamp": "2026-09-06T10:03:13Z",
-  "data_changed_at": "2026-09-06T10:03:13Z",
-  "data_hash": "9a6baa3ef4dac97b43537e452c80a3b9a93e706443ae34bac0342086a0e8432f",
+  "timestamp": "2026-09-08T10:24:07Z",
+  "data_changed_at": "2026-09-08T10:24:07Z",
+  "data_hash": "7c53bd72bf1fa3132bebbce52ce15e3c6e643550fb099c46f28ff6859fecdb99",
   "counts": {
-    "kommende": 34,
+    "kommende": 35,
     "aktuelle": 200,
     "abgeschlossen": 0
   },
-  "total": 234,
+  "total": 235,
   "source": "anisearch.de",
   "version": "5.0",
   "scraping": false,

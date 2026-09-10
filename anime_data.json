@@ -101,16 +101,6 @@
       "status": "kommende"
     },
     {
-      "id": 19768,
-      "title": "Anne Shirley",
-      "url": "https://www.anisearch.de/anime/19768,anne-shirley",
-      "image": "https://cdn.anisearch.de/images/anime/cover/19/19768_400.webp",
-      "info": "TV-Serie, 24 (2025)",
-      "year": 2025,
-      "type": "TV-Serie",
-      "status": "kommende"
-    },
-    {
       "id": 19490,
       "title": "Bitte zieh dich an, Takamine!",
       "url": "https://www.anisearch.de/anime/19490,haite-kudasai-takamine-san",
@@ -177,16 +167,6 @@
       "image": "https://cdn.anisearch.de/images/anime/cover/19/19712_400.webp",
       "info": "TV-Serie, 24 (2025)",
       "year": 2025,
-      "type": "TV-Serie",
-      "status": "kommende"
-    },
-    {
-      "id": 18360,
-      "title": "Girls Band Cry",
-      "url": "https://www.anisearch.de/anime/18360,girls-band-cry",
-      "image": "https://cdn.anisearch.de/images/anime/cover/18/18360_400.webp",
-      "info": "TV-Serie, 13 (2024)",
-      "year": 2024,
       "type": "TV-Serie",
       "status": "kommende"
     },
@@ -467,7 +447,7 @@
       "title": "Clevatess: Staffel 2",
       "url": "https://www.anisearch.de/anime/20894,clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou",
       "image": "https://cdn.anisearch.de/images/anime/cover/20/20894_400.webp",
-      "info": "TV-Serie, 12 (2026)",
+      "info": "TV-Serie, 13 (2026)",
       "year": 2026,
       "type": "TV-Serie",
       "status": "aktuelle"
@@ -540,6 +520,16 @@
       "info": "Web, 8 (2026)",
       "year": 2026,
       "type": "Web",
+      "status": "aktuelle"
+    },
+    {
+      "id": 21585,
+      "title": "Die sieben Ritter des Königreichs der Marronniers",
+      "url": "https://www.anisearch.de/anime/21585,marronnier-oukoku-no-shichinin-no-kishi",
+      "image": "https://cdn.anisearch.de/images/anime/cover/21/21585_400.webp",
+      "info": "TV-Serie, 20 (2026)",
+      "year": 2026,
+      "type": "TV-Serie",
       "status": "aktuelle"
     },
     {
@@ -627,7 +617,7 @@
       "title": "Hana-Kimi Staffel 2",
       "url": "https://www.anisearch.de/anime/21327,hanazakari-no-kimi-tachi-e-dai-2-ki",
       "image": "https://cdn.anisearch.de/images/anime/cover/21/21327_400.webp",
-      "info": "TV-Serie, 12 (2026)",
+      "info": "TV-Serie, 13 (2026)",
       "year": 2026,
       "type": "TV-Serie",
       "status": "aktuelle"
@@ -1023,16 +1013,6 @@
       "status": "aktuelle"
     },
     {
-      "id": 21585,
-      "title": "The Seven Knights of the Marronnier Kingdom",
-      "url": "https://www.anisearch.de/anime/21585,marronnier-oukoku-no-shichinin-no-kishi",
-      "image": "https://cdn.anisearch.de/images/anime/cover/21/21585_400.webp",
-      "info": "TV-Serie, 20 (2026)",
-      "year": 2026,
-      "type": "TV-Serie",
-      "status": "aktuelle"
-    },
-    {
       "id": 19669,
       "title": "The Warrior Princess and the Barbaric King",
       "url": "https://www.anisearch.de/anime/19669,hime-kishi-wa-barbaroi-no-yome",
@@ -1170,6 +1150,16 @@
       "info": "Film, 1 (2025)",
       "year": 2025,
       "type": "Film",
+      "status": "aktuelle"
+    },
+    {
+      "id": 19768,
+      "title": "Anne Shirley",
+      "url": "https://www.anisearch.de/anime/19768,anne-shirley",
+      "image": "https://cdn.anisearch.de/images/anime/cover/19/19768_400.webp",
+      "info": "TV-Serie, 24 (2025)",
+      "year": 2025,
+      "type": "TV-Serie",
       "status": "aktuelle"
     },
     {
@@ -2293,16 +2283,6 @@
       "status": "aktuelle"
     },
     {
-      "id": 18509,
-      "title": "Mobile Suit Gundam: Requiem for Vengeance",
-      "url": "https://www.anisearch.de/anime/18509,kidou-senshi-gundam-fukushuu-no-requiem",
-      "image": "https://cdn.anisearch.de/images/anime/cover/18/18509_400.webp",
-      "info": "Web, 6 (2024)",
-      "year": 2024,
-      "type": "Web",
-      "status": "aktuelle"
-    },
-    {
       "id": 19696,
       "title": "One Piece Fan Letter",
       "url": "https://www.anisearch.de/anime/19696,one-piece-fan-letter",
@@ -2354,15 +2334,15 @@
     }
   ],
   "abgeschlossen": [],
-  "timestamp": "2026-09-08T10:24:07Z",
-  "data_changed_at": "2026-09-08T10:24:07Z",
-  "data_hash": "7c53bd72bf1fa3132bebbce52ce15e3c6e643550fb099c46f28ff6859fecdb99",
+  "timestamp": "2026-09-10T10:22:34Z",
+  "data_changed_at": "2026-09-10T10:22:34Z",
+  "data_hash": "cc69536caf1aaaecef2b90576d94d27b43c89d25b08c795af61d2f34f4ae100d",
   "counts": {
-    "kommende": 35,
+    "kommende": 33,
     "aktuelle": 200,
     "abgeschlossen": 0
   },
-  "total": 235,
+  "total": 233,
   "source": "anisearch.de",
   "version": "5.0",
   "scraping": false,
